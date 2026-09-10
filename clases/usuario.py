@@ -10,7 +10,7 @@ class Usuario:
             self.direccion = direccion
         if telefono:
             self.telefono = telefono
-    
+
     def registrar_prestamo(self, prestamo):
         self.historial_prestamos.append(prestamo)
 
